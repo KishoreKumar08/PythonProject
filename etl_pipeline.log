@@ -1,0 +1,12 @@
+2025-11-13 23:34:01,587 - INFO - Hitting API URL
+2025-11-13 23:34:03,181 - INFO - Successfully hit API
+2025-11-13 23:34:03,184 - INFO - Transforming data
+2025-11-13 23:34:03,185 - INFO - Successfully transformed data
+2025-11-13 23:34:03,185 - INFO - Loading data
+2025-11-13 23:34:03,197 - INFO - data successfully loaded to etl_output.csv
+INFO:root:Hitting API URL
+INFO:root:Successfully hit API
+INFO:root:Transforming data
+INFO:root:Successfully transformed data
+INFO:root:Loading data
+INFO:root:data successfully loaded to etl_output.csv

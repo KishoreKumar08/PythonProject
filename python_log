@@ -1,0 +1,9 @@
+2025-11-14 10:59:33,119 - INFO - Hitting API URL
+2025-11-14 10:59:34,101 - INFO - Successfully hit API
+2025-11-14 10:59:34,103 - INFO - Transforming data
+2025-11-14 10:59:34,103 - INFO - Successfully transformed data
+2025-11-14 10:59:34,104 - INFO - Loading data
+2025-11-14 10:59:34,115 - INFO - data successfully loaded to etl_output.csv
+2025-11-14 10:59:34,115 - INFO - Loading data in DB
+2025-11-14 10:59:34,153 - INFO - data successfully loaded to sqLite etl_database.db on table todos
+2025-11-14 10:59:34,153 - INFO - Total records processed was 600
