@@ -32,6 +32,7 @@ class PythonSql:
     def db_connection(self):
         conn = sqlite3.connect('test.db')
         cursor = conn.cursor()
+        cursor.execute("DROP TABLE IF EXISTS employees")
         cursor.execute("CREATE TABLE IF NOT EXISTS employees(name TEXT, id INTEGER, salary REAL)")
         cursor.execute("INSERT INTO employees VALUES (?,?,?)", ('testEmp1', 1, 12345))
         cursor.execute("INSERT INTO employees VALUES (?,?,?)", ('testEmp2', 2, 23456))
